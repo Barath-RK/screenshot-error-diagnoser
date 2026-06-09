@@ -1,140 +1,119 @@
-# <div align="center">
+<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&duration=2500&pause=1000&color=6366F1&center=true&vCenter=true&width=900&lines=📸+Screenshot+Error+Diagnoser;🤖+AI-Powered+Error+Detection;⚡+Snap+→+Analyze+→+Fix;🧠+Vision+LLM+%2B+RAG+%2B+AI+Agents" />
+# 📸 Screenshot Error Diagnoser
+
+### 🤖 AI-Powered Error Detection & Resolution
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=Snap+Your+Error+Screenshot;AI+Extracts+the+Error;RAG+Finds+Similar+Issues;Get+Instant+Fix+Suggestions;Vision+LLM+%2B+RAG+%2B+AI+Agents" alt="Typing SVG" />
 
 <br>
 
-<img src="https://img.shields.io/github/stars/vishnu-psvpec/06-screenshot-error-diagnoser?style=for-the-badge&color=yellow" />
-<img src="https://img.shields.io/github/forks/vishnu-psvpec/06-screenshot-error-diagnoser?style=for-the-badge&color=blue" />
-<img src="https://img.shields.io/github/license/vishnu-psvpec/06-screenshot-error-diagnoser?style=for-the-badge&color=green" />
-<img src="https://img.shields.io/badge/OpenRouter-AI-purple?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask" />
-<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python" />
+<img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask"/>
+<img src="https://img.shields.io/badge/OpenRouter-AI-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vision-LLM-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-Knowledge%20Base-success?style=for-the-badge"/>
+
+<br>
+
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/Screenshot-Error-Diagnoser?style=social"/>
+<img src="https://img.shields.io/github/forks/YOUR_USERNAME/Screenshot-Error-Diagnoser?style=social"/>
+<img src="https://img.shields.io/github/watchers/YOUR_USERNAME/Screenshot-Error-Diagnoser?style=social"/>
 
 <br><br>
 
-### 🚀 Turn Error Screenshots into Instant Solutions
+### 🚀 Upload → Analyze → Fix
 
-*Upload any screenshot → Extract error text → Search knowledge base → Generate fixes → Learn automatically*
-
----
+*Transform error screenshots into actionable solutions using Vision AI, RAG, and AI Agents.*
 
 </div>
 
-# 🌟 Overview
+---
 
-Developers spend valuable time manually typing and searching error messages.
+## 🎯 Problem Statement
 
-**Screenshot Error Diagnoser** eliminates that process using:
+Developers often waste time manually typing error messages and searching through forums.
 
-✅ Vision AI to read screenshots
+**Screenshot Error Diagnoser** solves this by:
 
-✅ RAG for intelligent error matching
+📸 Reading error screenshots automatically
 
-✅ AI-generated troubleshooting steps
+🧠 Matching against a knowledge base
 
-✅ Auto-learning knowledge base
+🤖 Generating AI-powered solutions
 
-✅ Cost and token tracking
-
-✅ Beginner-friendly explanations
+🔄 Learning from new errors
 
 ---
 
-# 🎬 Demo Workflow
+## ⚡ Workflow
 
 ```mermaid
 flowchart LR
 
 A[📸 Upload Screenshot]
---> B[👁️ Vision LLM]
+--> B[👁️ Vision AI]
 
 B --> C[📝 Extract Error]
 
 C --> D[📚 RAG Search]
 
-D --> E[🤖 AI Diagnosis]
+D --> E[🤖 AI Agent]
 
-E --> F[🔧 Fix Steps]
+E --> F[🔧 Generate Fix]
 
-F --> G[💾 Auto Learn]
+F --> G[📋 Display Result]
 
-G --> H[📖 Knowledge Base]
+G --> H[🔄 Auto Learn]
+
+H --> I[(Knowledge Base)]
 ```
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-| Feature              | Description                      |
-| -------------------- | -------------------------------- |
-| 📸 Screenshot Upload | Drag & Drop error screenshots    |
-| 👁️ Vision LLM       | Reads error text automatically   |
-| 🧠 RAG Engine        | Matches similar known errors     |
-| 🤖 AI Diagnosis      | Generates detailed solutions     |
-| 🔄 Auto Learning     | Expands knowledge base over time |
-| 📚 History Tracking  | Stores previous diagnoses        |
-| 💰 Cost Monitoring   | Tracks token usage               |
-| 🎯 Beginner Friendly | Simple explanations              |
-| 📋 Copy Solution     | One-click copy                   |
-| 🎨 Modern UI         | Glassmorphism design             |
+| Feature              | Description                 |
+| -------------------- | --------------------------- |
+| 📸 Screenshot Upload | Upload any error screenshot |
+| 👁️ Vision LLM       | Extract text from image     |
+| 🧠 RAG Search        | Search known issues         |
+| 🤖 AI Diagnosis      | Generate solutions          |
+| 📚 History           | Store previous diagnoses    |
+| 🔄 Auto Learning     | Learn new errors            |
+| 💰 Token Tracking    | Monitor API costs           |
+| 📋 Copy Solution     | One-click copy              |
+| 🎨 Modern UI         | Glassmorphism interface     |
 
 ---
 
-# 🏗️ Architecture
+## 🏗️ Architecture
 
 ```text
-┌─────────────────────┐
-│  Screenshot Upload  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│    Vision Model     │
-│ Error Extraction    │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│     RAG Search      │
-│ Knowledge Matching  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  AI Solution Agent  │
-│ Generate Fix Steps  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   Auto Learning     │
-└─────────────────────┘
+Screenshot
+     │
+     ▼
+Vision AI
+     │
+     ▼
+Error Extraction
+     │
+     ▼
+RAG Search
+     │
+     ▼
+AI Diagnosis
+     │
+     ▼
+Fix Generation
+     │
+     ▼
+Auto Learning
 ```
 
 ---
 
-# 🧠 AI Agent Workflow
-
-```text
-Agent Loop
-
-1️⃣ Observe Screenshot
-      ↓
-2️⃣ Extract Error
-      ↓
-3️⃣ Search Knowledge Base
-      ↓
-4️⃣ Generate Diagnosis
-      ↓
-5️⃣ Recommend Fixes
-      ↓
-6️⃣ Store New Knowledge
-```
-
----
-
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ### Backend
 
@@ -147,10 +126,9 @@ Agent Loop
 * Gemini Models
 * Llama Models
 
-### RAG
+### Storage
 
 * JSON Knowledge Base
-* Similarity Matching
 
 ### Frontend
 
@@ -160,113 +138,34 @@ Agent Loop
 
 ---
 
-# 📂 Project Structure
+## 🚀 Quick Start
 
 ```bash
-06-screenshot-error-diagnoser
-│
-├── app.py
-│
-├── templates
-│   └── index.html
-│
-├── static
-│   ├── style.css
-│   └── script.js
-│
-├── tests
-│   └── test_app.py
-│
-├── sample_data
-│   └── sample_error.png
-│
-├── knowledge_base.json
-│
-├── requirements.txt
-│
-└── README.md
-```
+git clone https://github.com/YOUR_USERNAME/Screenshot-Error-Diagnoser.git
 
----
+cd Screenshot-Error-Diagnoser
 
-# 🚀 Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/vishnu-psvpec/06-screenshot-error-diagnoser.git
-
-cd 06-screenshot-error-diagnoser
-```
-
-## Create Virtual Environment
-
-```bash
 python -m venv venv
-```
 
-Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Linux / Mac
-
-```bash
 source venv/bin/activate
-```
 
----
-
-## Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
----
-
-## Configure Environment
-
-Create `.env`
-
-```env
-OPENROUTER_API_KEY=your_api_key
-
-OPENROUTER_MODEL=openrouter/free
-
-OPENROUTER_API_URL=https://openrouter.ai/api/v1
-```
-
----
-
-## Run Application
-
-```bash
 python app.py
 ```
 
-Application runs on:
-
-```text
-http://localhost:5001
-```
-
 ---
 
-# 🎯 Example Diagnoses
+## 🎮 Example
 
-## 🐍 Python Error
-
-Input:
+### Input
 
 ```text
 ModuleNotFoundError:
-No module named flask
+No module named 'flask'
 ```
 
-Output:
+### Output
 
 ```text
 1. Install Flask
@@ -279,75 +178,31 @@ pip list
 
 3. Activate Virtual Environment
 
-4. Add Flask to requirements.txt
+4. Restart Application
 ```
 
 ---
 
-## 🔌 Port Already In Use
+## 📊 AI Capabilities
 
-Input
-
-```text
-EADDRINUSE
-address already in use
-```
-
-Output
-
-```text
-1. Find process using port
-
-lsof -i :5000
-
-2. Kill process
-
-kill -9 PID
-
-3. Restart application
-```
+| Capability        | Status |
+| ----------------- | ------ |
+| Vision LLM        | ✅      |
+| RAG Engine        | ✅      |
+| AI Agent Workflow | ✅      |
+| Knowledge Base    | ✅      |
+| Auto Learning     | ✅      |
+| API Integration   | ✅      |
 
 ---
 
-## 🎨 Adobe Error 16
-
-Output
-
-```text
-1. Close Adobe Applications
-
-2. Restart Computer
-
-3. Run Adobe Cleaner Tool
-
-4. Reinstall Software
-```
-
----
-
-# 📊 Evaluation Mapping
-
-| Requirement          | Status |
-| -------------------- | ------ |
-| AI Agent             | ✅      |
-| RAG                  | ✅      |
-| API Integration      | ✅      |
-| End-to-End Execution | ✅      |
-| Knowledge Base       | ✅      |
-| Auto Learning        | ✅      |
-| Testing              | ✅      |
-
----
-
-# 🧪 Unit Tests
-
-Run:
+## 🧪 Testing
 
 ```bash
 pytest tests/ -v
 ```
 
-Expected:
+Expected Output:
 
 ```text
 ✅ test_rag_finds_module_error
@@ -363,40 +218,43 @@ Expected:
 
 ---
 
-# 📈 Future Enhancements
+## 🚀 Future Enhancements
 
-* 🔍 OCR fallback engine
-* 🧠 Local LLM support
-* ☁️ Cloud deployment
-* 📱 Mobile application
-* 📊 Analytics dashboard
-* 🗂️ Vector database support
-* 🎙️ Voice explanation mode
+* OCR Fallback Engine
+* Local LLM Support
+* Mobile Application
+* Vector Database
+* Voice Explanations
+* Cloud Deployment
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome.
 
 ```bash
-Fork → Create Branch → Commit → Push → Pull Request
+Fork → Clone → Code → Commit → Push → Pull Request
 ```
 
 ---
 
-# 📜 License
+## ⭐ Support
 
-MIT License
+If you found this project useful:
 
-Free to use, modify and distribute.
+⭐ Star the repository
+
+🍴 Fork it
+
+🛠️ Contribute improvements
 
 ---
 
-# 💙 Built With
+<div align="center">
 
-### Python • Flask • OpenRouter • RAG • AI Agents
+### 💙 Built with Python, Flask, OpenRouter, Vision AI and RAG
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Thanks+for+visiting!;⭐+Star+the+Repository+if+you+like+it;🚀+Happy+Coding!" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!;Star+the+Repository+⭐;Happy+Debugging+🚀" />
 
 </div>
